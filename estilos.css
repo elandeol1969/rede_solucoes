@@ -1,140 +1,154 @@
 body {
-    margin: 0;
-    font-family: 'Fredoka', sans-serif;
-    font-size: 16px;
-  }
+  text-align: center;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+nav {
+  display: flex;
+  color: black;
+  position: fixed;
+  align-items: center;
+}
+
+.nav-wrapper {
+  margin-top: 0px;
+  padding-top: 4px;
+  background-color: black;
+}
+
+#redesolu a{
+  font-size: 24px;
+  margin-left: 250px;
+}
+
+#redesolu img {
+  height: 40px;
+  margin-top: 8px;
+  padding-bottom: 0px;
+}
+
+.brand-logo img {
+  height: 50px;
+  border-radius: 10%;
+  margin-top: 5px;
+  padding-bottom: 0px;
+}
+
+ #primeiradiv {
+ /*margin-top: 150px;*/
+  padding-top: 50px;
+  padding-bottom: 200px;
+  background-image: url('img/image6.jpg');
+  background-repeat: none;
+  background-size: cover;
+  height: 580px;
+
+}
+
+.secao-largura-limitada {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Seção conteúdo */
+.secao-conteudo {
+  padding: 30px 20px;
+}
+
+.secao-largura-limitada .imgbox {
+  text-align: justify;
+}
+
+.img-conteudo {
+  width: 250px;
+  margin: 12px 20px;
+  /*height: 180px;*/
+  border: 2px solid orange;
+  text-align: center;
+}
+
+.imgbox {
+  /*display: flex;
+  align-items: baseline;*/
+  text-align: justify;
+  width: 60%;
+  margin: 0px auto;
+}
+
+/* Seção com imagem de fundo e texto */
+.secao-background-divisao {
+  padding: 50px 50px;
+  text-align: center;
+  background-image: url('img/image2.jpg');
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 2px solid orange;
+  margin: 0px;
+}
+
+.secao-background-divisao h3 {
+  font-size: 24px;
+  background-color: #fff;
+  width: 250px;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding: 12PX;
+  font-weight: bold;
+}
+
+#quemsomos {
+  font-size: 24px;
+  text-align: center;
+}
+
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 48px;
+  margin: 0 36px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;  
+  font-size: 20px;
+}
+
+.parag-governanca {
+  text-align: center;
+  margin: 16px;
+}
+
+#nossosvalores {
+  text-align: center;
+}
+
+ul {
+  margin: 16px 0px;
   
-  /* Topo */
-  .secao-topo {
-    border-bottom: 1px solid #d5d5d5;
-    margin: 0px 0px 0px 48px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    color: red;
-    font-weight: bold;
-    height: 80px;
-    text-align: center;
-  }
+}
 
-  .secao-topo a {
-    text-decoration: none;
-    color: red;
-  } 
+li {
+  padding: 4px;
+}
 
-  .secao-topo a:hover {
-    color: white;
-    background-color: red;
-    padding: 12px;
-    border-radius: 24px;
-  } 
-  
-  .secao-topo .secao-largura-limitada img {
-    width: 150px;
-    margin: 0px;
-  }
+#home {
+  padding: 0px;
+  margin-bottom: 10px;
+}
 
-  .secao-largura-limitada {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-  }
+#home a {
+  text-decoration: none;
+  color: red;
+  font-size: 16px;
+  padding: 0px;
+}
 
-  h1, h2, h3 {
-    margin: 0;
-  }
-  
-  .secao-topo p {
-    padding: 20px;
-    font-size: 22px;
-    font-weight: bold;
-    margin-left: 20px;
-  }
-  
-  /* Seção inicial com imagem de fundo */
-  .secao-background-capa {
-    min-height: 500px;
-    background-image: url('img/image6.jpg');
-    background-size: cover;
-    margin-bottom: 0;
-    border: 2px solid orange;
-  }
-  .secao-background-conteudo {
-    text-align: right;
-    padding: 50px 20px;
-  }
-  
-  /* Seção conteúdo */
-  .secao-conteudo {
-    padding: 30px 20px;
-  }
-
-  .secao-largura-limitada .imgbox {
-    text-align: justify;
-  }
-
-  .img-conteudo {
-    width: 300px;
-    margin: 12px 30px;
-    /*height: 180px;*/
-    border: 2px solid orange;
-  }
-  
-  .secao-conteudo span {
-    padding-left: 10px;
-    font-size: 20px;
-    color: red;
-    font-weight: bold;
-  }
-  
-  /* Seção com imagem de fundo e texto */
-  .secao-background-divisao {
-    padding: 50px 50px;
-    text-align: center;
-    background-image: url('img/image2.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid orange;
-  }
-
-  .secao-background-divisao h3{
-    font-size: 36px;
-    background-color: #fff;
-    width: 200px;
-    margin: 0 auto;
-    border-radius: 20px;
-  }
-
-  #home {
-    text-align: center;
-  }
-
-  #home p{
-    margin:0 36px 36px 36px;
-    padding: 0;
-    color: red;
-    font-weight: bold;
-  }
-
-  #home img {
-    height: 48px;
-    margin:0 36px;
-    text-align: center;
-  }
-
-  li {
-    padding: 6px;
-  }
-
-  #home {
-    padding: 0px;
-    margin-bottom: 20px;
-  } 
-
-  #home a {
-    text-decoration: none;
-    color: red;
-    font-size: 16px;
-    padding: 0px;
-  }
+#home img {
+  height: 70px; 
+}
